@@ -1,0 +1,27 @@
+.RecordList-header {
+  min-height: 44px;
+  padding: 10px 15px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: #39A0B2;
+  color: #F2F8F9;
+  border-bottom: 6px solid #E1E7E8;
+  font-weight: bold;
+}
+.RecordList-header .today {
+  min-width: 34px;
+  cursor: pointer;
+}
+.RecordList-header .alldays {
+  -ms-flex: 1;
+      flex: 1;
+  text-align: center;
+}
+.RecordList-content {
+  color: #39A0B2;
+  list-style-type: square;
+}

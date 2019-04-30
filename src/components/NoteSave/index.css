@@ -1,0 +1,176 @@
+.notesform {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #ffffff;
+  z-index: 888;
+  cursor: pointer;
+}
+.notesform-header {
+  min-height: 44px;
+  padding: 10px 15px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #39A0B2;
+  font-weight: bold;
+  color: #F2F8F9;
+  border-bottom: 6px solid #E1E7E8;
+}
+.notesform-header .title {
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+.close {
+  height: 28px;
+  width: 44px;
+  cursor: pointer;
+}
+.submit {
+  width: 44px;
+  height: 28px;
+  cursor: pointer;
+}
+.notesform-content {
+  color: #4B6B70;
+}
+.notesform-item {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 15px;
+  border-bottom: 6px solid #E1E7E8;
+  background-color: #ffffff;
+}
+.notesform-item .title {
+  padding-top: 2px;
+  padding-right: 10px;
+}
+.notesform-item .edit {
+  font-size: 16px;
+  color: #4B6B70;
+  -ms-flex: 1;
+  flex: 1;
+  min-height: 66px;
+  outline: none;
+  border: none;
+  font-weight: normal;
+}
+.notesform-time {
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 44px;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0 15px;
+  border-bottom: 6px solid #E1E7E8;
+  margin-bottom: 5px;
+}
+.notesform-time .title {
+  -ms-flex: 1;
+  flex: 1;
+}
+.notesform-time .date {
+}
+.notesform-time .arrow {
+  margin-left: 10px;
+  height: 18px;
+  width: 18px;
+}
+/*
+*/
+.notesBox {
+  box-sizing: border-box;
+  background-color: #858989;
+  position: absolute;
+  padding: 6px 5px;
+  width: 200%;
+  border-radius: 2px;
+  z-index: 100;
+  left: -50%;
+}
+.notesBox-container {
+}
+.noteBox-date {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 4px;
+  padding-left: 5px;
+  height: 24px;
+  background-color: #ffffff;
+  -ms-flex-align: center;
+      align-items: center;
+  font-size: 14px;
+  color: #8D9393;
+}
+.noteBox-date .hour {
+  -ms-flex: 1;
+      flex: 1;
+  background-color: #ffffff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding-left: 4px;
+}
+.noteBox-date .minute {
+  -ms-flex: 1;
+      flex: 1;
+  background-color: #ffffff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding-left: 4px;
+  margin-left: 6px;
+}
+input:focus {
+  outline: none;
+}
+.noteBox-date .hour input,
+.noteBox-date .minute input {
+  border: none;
+  width: 100%;
+}
+.noteBox-content {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 4px;
+}
+textarea:focus {
+  outline: none;
+}
+.noteBox-content textarea {
+  -ms-flex: 1;
+      flex: 1;
+  font-size: 14px;
+  color: #8D9393;
+  padding-left: 5px;
+  min-height: 18px;
+}
+.noteBox-btn {
+  min-height: 14px;
+  max-height: 28px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.noteBox-btn input {
+  background-color: #F2F8F9;
+}
